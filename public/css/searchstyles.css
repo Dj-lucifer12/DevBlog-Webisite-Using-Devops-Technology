@@ -1,0 +1,105 @@
+body{
+    font-family: Tahoma;
+    letter-spacing: 1px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Cp3t9R55yuZMtLbaVJ3Gk1mR7rT-jirrig&usqp=CAU');: 
+}
+
+h1, h2{
+    font-weight: normal;
+}
+
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+#page-banner{
+    background-color:#040722 ;
+    padding: 10px 0;
+    border-radius: 10px;
+
+}
+
+#page-banner h1, #page-banner p{
+    width: 100%;
+    text-align: center;
+    color:whitesmoke;
+    font-weight: bold;
+    font-family:'Comic Sans MS', 'Comic Sans', cursive;
+    margin: 10px 0;
+}
+
+#page-banner input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #444;
+}
+
+#book-list, #add-book, #tabbed-content{
+    margin: 30px;
+}
+
+#book-list ul, #tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#book-list li{
+    padding: 20px;
+    border-left: 5px solid rgb(175, 0, 73);
+    margin: 20px 10px;
+}
+
+#book-list li:hover{
+    border-color: #349217;
+}
+
+.delete{
+    float: right;
+    background: #0000FF;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover{
+    background: rgb(96, 15, 107);
+}
+#tabbed-content li{
+    display: inline-block;
+    padding: 10px 14px;
+    background: #0000FF;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: white;
+}
+
+#tabbed-content .panel{
+    display: none;
+    border: 2px solid rgb(114, 17, 57);
+    padding: 0 10px;
+    border-radius: 4px;
+    background: black;
+    color: white;
+    font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+#tabbed-content .panel.active{
+    display: block;
+}
