@@ -1,1 +1,1 @@
-# DevBlog-Webisite-Using-Devops-Technology
+# DevBlog-Website-Using-Devops-Technology
